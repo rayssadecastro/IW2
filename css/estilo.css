@@ -17,14 +17,34 @@
     background-color: tan;
 }
 .t{
-    width: 200px;
-    height: 150px;
+    width: 250px;
+    height: 100px;
     background: rgb(129, 98, 72);
     transition: width 2s;
+    text-align: center;
+    
   }
  .t{
     transition: width 2s, height 4s;
   }
   .t:hover {
     width: 300px;
+  }
+  .te{
+    width: 270px;
+    height: 100px;
+    background: rgb(129, 98, 72);
+    transition: width 2s;
+    text-align: center;
+  }
+  .te{
+    transition: width 2s, height 4s;
+  }
+  .te:hover {
+    width: 300px;
+  }
+  .tittle{
+    text-align: center;    
+    font-size: 35px;
+
   }
